@@ -34,11 +34,19 @@ We expect from you a link to github repo with docker-compose.yml and Dockerfiles
        - dockerized-mysql-greetingsdb  
        - dockerized-web-greetingsapp  
 
-* Consul discovery service used to detect a mysql database i.e. `greetingsdb` which is being used for our web app i.e. `greetingsapp`
+* Consul discovery service detects the mysql database i.e. `greetingsdb` which is being used for our web app i.e. `greetingsapp`
 
 * `greetingsapp` is a simple web application reads `Hello World` string from `greetingsdb` (SQL query to `greetings_tbl`)
 
 **How to setup**
+
+##### System Pre-Requisite :
+
+1. Install `docker`
+2. Install `docker-compose`
+3. Install `git`
+
+##### Setting Up :
 
 1. Clone this repo `git clone https://github.com/akgitdevops/ashwani-code-challenge.git`
 2. Execute `docker-compose up -d`
