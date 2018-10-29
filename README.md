@@ -1,4 +1,4 @@
-### Assignment Submision for the technicalinterview
+### Assignment Submission for the Technical Interview
 
 **objective**
 
@@ -26,5 +26,27 @@ I can clone the repo, run 'docker-compose up', type '127.0.0.1:8080' in a browse
 
 We expect from you a link to github repo with docker-compose.yml and Dockerfiles you might need.
 
-**Solution**
+### Solution
+
+* docker-compose.yml file used to deploy complete application stack, consists of:
+       - dockerized-consulserver
+       - dockerized-registrator 
+       - dockerized-mysql-greetingsdb
+       - dockerized-web-greetingsapp
+
+* Consul discovery service used to detect a mysql database i.e. `greetingsdb` which is being used for our web app i.e. `greetingsapp`
+
+* `greetingsapp` is a simple web application reads `Hello World` string from `greetingsdb` (SQL query to `greetings_tbl`)
+
+**How to setup**
+
+1. Clone this repo `git clone https://github.com/akgitdevops/ashwani-code-challenge.git`
+2. Execute `docker-compose up -d`
+3. Browse the application `http://127.0.0.1:8080`
+
+
+
+
+
+
 
