@@ -28,11 +28,11 @@ We expect from you a link to github repo with docker-compose.yml and Dockerfiles
 
 ### Solution
 
-* docker-compose.yml file used to deploy complete application stack, consists of:
-       - dockerized-consulserver
-       - dockerized-registrator 
-       - dockerized-mysql-greetingsdb
-       - dockerized-web-greetingsapp
+* docker-compose.yml file used to deploy complete application stack, consists of:  
+       - dockerized-consulserver  
+       - dockerized-registrator  
+       - dockerized-mysql-greetingsdb  
+       - dockerized-web-greetingsapp  
 
 * Consul discovery service used to detect a mysql database i.e. `greetingsdb` which is being used for our web app i.e. `greetingsapp`
 
