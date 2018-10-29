@@ -39,7 +39,7 @@ services:
     build: .
     command: python app.py
     ports: 
-      - "4000:80"
+      - "8080:80"
     volumes:
       - .:/app
     depends_on:
