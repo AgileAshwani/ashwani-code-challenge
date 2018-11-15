@@ -1,4 +1,4 @@
-### Assignment Submission for the Technical Interview
+### Sample exercise on Docker compose
 
 **objective**
 
